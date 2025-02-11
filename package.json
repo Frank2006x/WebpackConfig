@@ -5,7 +5,7 @@
   "scripts": {
     "build": "webpack --config webpack.prod.config.js",
     "dev": "webpack serve --config webpack.dev.config.js",
-    "start": "webpack serve --open --mode development",
+    "start": "webpack serve --config webpack.dev.config.js --open --mode development",
     "deploy": "git subtree push --prefix dist origin gh-pages"
   },
   "repository": {
