@@ -15,3 +15,5 @@ The server watches for changes in your files and automatically refreshes the bro
 Purpose: This is similar to dev, but it adds the --open flag, which automatically opens your default web browser when the server starts. It also sets the mode to development.
 `npm start`
 This is particularly useful for testing your app in development without needing to manually open the browser.
+
+**If you are win user change the end sequence character to LF**
