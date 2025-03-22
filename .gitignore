@@ -129,5 +129,19 @@ dist
 .yarn/install-state.gz
 .pnp.*
 
-node_modules
-dist
+# Node modules (dependencies installed via npm)
+node_modules/
+
+# Build output (compiled files from Webpack)
+dist/
+
+# Lock files (optional, but usually kept for stability)
+package-lock.json
+
+# VSCode settings (user-specific)
+.vscode/
+
+# Log files (errors, debugging info)
+*.log
+
+# ESLint cache (if generated)
